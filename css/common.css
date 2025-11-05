@@ -14,6 +14,7 @@
   --primary: rgba(154, 199, 91, 1);
   --secondary: rgba(85, 118, 44, 1);
   --white: rgba(255, 255, 255, 1);
+  --banner: rgba(45, 62, 79, 1);
 
   /* Text-size styles */
   --body--ff: "Open Sans", snas-serif;
@@ -23,6 +24,22 @@
   --content--tt: calc(var(--body) * 1.5);
   --section--desc: calc(var(--body) * 1.125);
   --body--link: 16px;
+}
+
+/* Layout */ 
+.big_pd {
+  padding: calc(var(--base-unit) * 3) 0;
+}
+.big_top_pd {
+  padding-top: calc(var(--base-unit) * 3);
+}
+.hidden {
+  position: absolute;
+  left: 0;
+  top: -9999999em;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
 
 /* typography */
@@ -60,6 +77,10 @@ body {
   color: var(--secondary);
 }
 
+.banner_bg {
+  background: var(--banner);
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -72,3 +93,14 @@ body {
   color: var(--dark-gray);
   background: var(--light-gray);
 }
+
+
+/* Form */
+form {
+  width: 350px;
+  margin: 0 auto;
+}
+.field input {
+  background: var(--white);
+}
+
