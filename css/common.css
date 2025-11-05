@@ -59,3 +59,16 @@ body {
 .secondary {
   color: var(--secondary);
 }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 39px;
+  padding: 0 20px;
+  border-radius: 3px;
+  font-size: calc(var(--body) * 0.875);
+  font-weight: 700;
+  color: var(--dark-gray);
+  background: var(--light-gray);
+}
