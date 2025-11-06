@@ -15,3 +15,31 @@
   align-items: center;
   gap: var(--base-unit);
 }
+
+.feature_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.feature_list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 27px;
+}
+
+.feature_list .icon {
+  width: calc(var(--base-unit) * 4);
+  height: calc(var(--base-unit) * 4);
+  border: 1px solid #439CCF;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #439CCF;
+  font-size: 36px;
+}
+
