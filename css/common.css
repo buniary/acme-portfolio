@@ -47,6 +47,11 @@
   overflow: hidden;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid var(--medium-gray);
+}
+
 /* typography */
 
 body {
@@ -69,6 +74,12 @@ body {
 }
 .content_tt {
   font-size: var(--content--tt);
+}
+
+.section_desc {
+  font-size: calc(var(--body) * 1.125);
+  line-height: var(--base-unit);
+  color: var(--medium-gray);
 }
 
 .body {
@@ -217,3 +228,4 @@ header nab ul li:first-child {
 header nab ul li:first-child a {
   color: var(--black);
 }
+
