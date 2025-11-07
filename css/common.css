@@ -34,7 +34,7 @@
 .layout {
   display: flex;
   flex-direction: column;  
-  align-items: cneter;
+  align-items: center;
   gap: calc(var(--base-unit) * 2);
 }
 
