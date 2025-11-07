@@ -2,13 +2,6 @@
   color: var(--medium-gray);
 }
 
-.qna, .portfolio {
-  display: flex;
-  flex-direction: column;
-  gap: calc(var(--base-unit) * 2);
-  align-items: center;
-}
-
 .qna_list {
   width: 750px;
   margin: 0 auto;
@@ -26,6 +19,7 @@
 
 .qna_list .question span {
   opacity: 0.4;
+  transition: 0.5s;
 }
 
 .qna_list .answer {
@@ -41,4 +35,16 @@
 }
 .qna_list .active h3 {
   font-weight: bold;
+}
+
+.portfolio_list figure {
+  gap: 27px;
+}
+
+.portfolio_list figcaption {
+  width: 51%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
