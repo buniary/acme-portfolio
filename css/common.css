@@ -215,7 +215,7 @@ header nav ul {
   gap: 20px;
 }
 
-header nab ul li:first-child {
+header nav ul li:first-child {
   margin-right: 20px;
   font-size: 14px;
   font-weight: bold;
@@ -225,7 +225,61 @@ header nab ul li:first-child {
   color: var(--light-gray);
 }
 
-header nab ul li:first-child a {
+header nav ul li:first-child a {
   color: var(--black);
 }
 
+/* FOOTER*/
+
+footer .cta {
+  background: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  text-align: center;
+}
+footer .cta .content_tt {
+  color: var(--white);
+  margin-bottom: 27px;
+}
+
+footer .copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+
+/* slide */
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.slide_container {
+  transition: 0.5s;
+  display: flex;
+  /* width: calc(var(--container) * 3); */
+}
+.slide_container li {
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--light-gray);
+}
+
+.wrapper button span {
+  font-size: 45px;
+}
+.wrapper .prev {
+  left: 0;
+}
+.wrapper .next {
+  right: 0;
+}
