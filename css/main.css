@@ -3,12 +3,6 @@
 }
 
 
-.feature_list {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-}
-
 .feature_list li {
   display: flex;
   flex-direction: column;
