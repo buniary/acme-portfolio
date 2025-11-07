@@ -9,13 +9,6 @@
   align-items: center;
 }
 
-.banner .titles {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--base-unit);
-}
-
 
 .feature_list {
   display: flex;
