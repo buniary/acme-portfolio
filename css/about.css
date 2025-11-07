@@ -9,18 +9,36 @@
   align-items: center;
 }
 
-.qna_lsit {
-  display: flex;
-  justify-content: center;
+.qna_list {
   width: 750px;
+  margin: 0 auto;
 }
 .question {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 0 20px;
   height: 54px;
   font-size: calc(var(--body) * 1.125);
   background: var(--light-gray);
+  color: var(--black);
+}
+
+.qna_list .question span {
+  opacity: 0.4;
+}
+
+.qna_list .answer {
+  padding: 20px;
+  display: none;
+}
+.qna_list .active .answer {
+  display: block;
+}
+.qna_list .active span {
+  opacity: 1;
+  transform: rotate(-180deg);
+}
+.qna_list .active h3 {
+  font-weight: bold;
 }
