@@ -1,0 +1,26 @@
+.section_desc {
+  color: var(--medium-gray);
+}
+
+.qna, .portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-unit) * 2);
+  align-items: center;
+}
+
+.qna_lsit {
+  display: flex;
+  justify-content: center;
+  width: 750px;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+  height: 54px;
+  font-size: calc(var(--body) * 1.125);
+  background: var(--light-gray);
+}
